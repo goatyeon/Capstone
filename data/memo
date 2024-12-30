@@ -8,6 +8,7 @@ sentinel 2
 - 결측치 제거
 - 불필요한 열 삭제
 - 센티넬 찍는 시간 맞춰서 데이터 잘라내기(10:00-11:00)
+- 한 파일에 모든 지역의 데이터가 모여 있었기 때문에, 지역 별로 연도 별로 분류하는 작업 거치기
 
 sentinel 2 + airkorea 최종 데이터
 1. (sentinel 2 DATE = airkorea 측정일시_날짜) & (sentinel 2 주소 == airkorea 주소)동일 한 행 추출
